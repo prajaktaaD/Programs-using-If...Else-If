@@ -6,11 +6,11 @@ int main()
 {
   char ch;
   printf("Enter the character:");
-  scanf("%d",&ch)
+  scanf("%c",&ch)
   
   if(ch>='A'&&ch<='Z')
    { 
-     printf("It is alphabate:");
+    
      
      if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
         printf("The character is vowel");
@@ -20,9 +20,7 @@ int main()
    }
    
    else if(ch>='0'||ch<='0')
-     {
-      printf("It is number:");
-      
+   {
       if(ch%2==0)
        printf("The num is even:");
        
