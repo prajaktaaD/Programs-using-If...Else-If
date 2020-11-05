@@ -6,7 +6,7 @@ int main()
 {
   char ch;
   printf("Enter the character:");
-  scanf("%c",&ch)
+  scanf("%c",&ch);
   
   if(ch>='A'&&ch<='Z')
    { 
