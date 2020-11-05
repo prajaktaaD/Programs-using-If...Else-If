@@ -8,7 +8,7 @@ int main()
   printf("Enter the character:");
   scanf("%c",&ch);
   
-  if(ch>='A'&&ch<='Z')
+  if((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z'))
    { 
     
      
