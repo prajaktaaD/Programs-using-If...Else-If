@@ -5,7 +5,7 @@ int main()
 {
   int num;
   printf("Enter the num:");
-  scanf("%d"&num);
+  scanf("%d",&num);
   
   if(num==1)
    printf("Monday");
