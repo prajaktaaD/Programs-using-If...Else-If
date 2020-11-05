@@ -22,7 +22,7 @@ int main()
          printf("The greatest is b(%d)",b);
          
        else
-        printf("The greatest is c(%d)",c)
+        printf("The greatest is c(%d)",c);
   }
   
   return 0;
